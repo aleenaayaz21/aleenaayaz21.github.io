@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="#">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Visualization with D3.js</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <!-- Load d3-annotation -->
+        <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    </head>
+    <body>
+        <div id="tooltip">
+            <text id="schoolname"></text><br>
+            <text id="region"></text><br>
+            <text id="starting-salary"></text><br>
+            <text id="mid-salary"></text><br>
+        </div>
+        <div id="scene">
+            <div id="scene-header">
+                <h1>Colleges That Pay You Back</h1>
+            </div>
+            <div id="nav">
+                <p id="scene-desc">
+                    This interactive visual illustrates starting and mid-career salaries, categorized into five different regions. Users can hover over each data point to reveal details about which universities in which regions have the best salary trends. The data indicates that students who attended universities in the Northeastern and California regions have some of the highest salaries.
+                    <br></br>
+                </p>
+                <a href="index.html">
+                    <button class="btn btn-default">
+                        Go Back
+                    </button>
+                </a>
+                <a href="index.html">
+                    <button class="btn btn-default">
+                        Home
+                    </button>
+                </a>
+                <a href="third_scene.html">
+                    <button class="btn btn-default">
+                        Explore Further
+                    </button>
+                </a>
+            </div>
+            </br>
+            <div id="viz-title">
+                <h2>Starting Career Salaries VS. Mid Career Salaries by Universities</h2>
+            </div>
+            <div id="viz">
+            </div>
+        </div>
+        <script src="js/second_scene.js"></script>
+    </body>
+</html>

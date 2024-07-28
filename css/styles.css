@@ -1,0 +1,145 @@
+.svg-container {
+    display: block;
+    position: relative;
+    width: 80%;
+    padding-bottom: 100%; /* aspect ratio */
+    /* vertical-align: top; */
+    overflow: hidden;
+    background-color: '#ffff6f07';
+}
+.svg-content-responsive {
+    display: block;
+    margin: auto;
+    top: 10px;
+    left: 0;
+}
+
+#tooltip {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  padding: 8px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 5;
+}
+
+#tooltip text {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ddd;
+}
+
+
+div {
+    display: block;
+    margin: auto;
+}
+
+div#viz {
+    display: block;
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+svg {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    position: relative;
+    width: 85%;
+    border: 0px solid#51a05b70;
+    border-radius: 5px;
+}
+
+#nav {
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+#nav > p {
+    text-align: left;
+}
+
+button {
+    background-color: #9e703de3;
+    color: black;
+    font-weight: 700;
+    outline: rgb(65, 143, 107);
+    cursor: pointer;
+    padding: 0.5%;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 160px;
+}
+
+button:hover {
+    background-color: #835119e3;
+    color: black;
+}
+
+#viz-title h2 {
+    font-family: 'Helvetica Neue', Helvetica, Roboto, Ubuntu, Oxygen, Impact, Charcoal, sans-serif;
+    text-align: center;
+    width: 85%;
+    padding: 1%;
+    position: relative;
+    color: black;
+    font-size: 110%;
+    line-height: 60%;
+    margin: auto;
+    border-radius: 5px;
+    background: #9e703de3;
+    border: 0px solid#51a05b70;
+}
+
+p {
+    font-family: 'Helvetica Neue', Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif, Times, serif;
+    font-size: 90%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#scene-header h1 {
+    width: auto;
+    display: table;
+    text-align: center;
+    color: #1d571d;
+    margin: auto;
+    height: 60%;
+    line-height: 100%;
+    padding: 1%;
+    position: relative;
+    font-family: Impact, Roboto, Charcoal, sans-serif;
+    font-size: 170%;
+}
+
+circle {
+    stroke: rgba(26, 23, 23, 0.568);
+    stroke-width: 1px;
+    shape-rendering: geometricPrecision;
+}
+
+circle:hover {
+    stroke: black;
+    stroke-width: 2px;
+}

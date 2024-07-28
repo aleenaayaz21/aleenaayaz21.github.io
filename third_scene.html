@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="#">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Visualization with D3.js</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <!-- Load d3-annotation -->
+        <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    </head>
+    <body>
+        <div id="tooltip">
+            <text id="schoolname"></text><br>
+            <text id="schooltype"></text><br>
+            <text id="starting-salary"></text><br>
+            <text id="mid-salary"></text><br>
+        </div>
+        <div id="scene">
+            <div id="scene-header">
+                <h1>Colleges That Pay You Back</h1>
+            </div>
+            <div id="nav">
+                <p id="scene-desc">
+                    This interactive visual illustrates the outcome of salaries based on the school type. It may be clear to predict your starting salary based on the type of school you attend. However, increased earning power shows less disparity. Ten years out, graduates of Ivy League schools earned 99% more than they did at graduation. Party school graduates saw an 85% increase. Engineering school graduates fared the worst, earning 76% more ten years after graduation.
+                    <br></br>
+                </p>
+                <a href="second_scene.html">
+                    <button class="btn btn-default">
+                        Go Back
+                    </button>
+                </a>
+                <a href="index.html">
+                    <button class="btn btn-default">
+                        Home
+                    </button>
+                </a>
+            </div>
+            </br>
+            <div id="viz-title">
+                <h2>Breakdown by School Type</h2>
+            </div>
+            <div id="viz">
+            </div>
+        </div>
+        <script src="js/third_scene.js"></script>
+    </body>
+</html>
